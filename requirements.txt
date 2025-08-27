@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-openai
+langchain-google-genai
+streamlit
+fastapi
+uvicorn
+python-dotenv
+pydantic
+typing-extensions
+pytest
+black
+flake8
