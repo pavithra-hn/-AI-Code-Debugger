@@ -23,10 +23,9 @@ The system runs in a feedback loop until a satisfactory solution is found or max
 - **Multiple LLM Support**: Works with GPT-4, GPT-3.5, and other OpenAI models
 
 ## 🏗️ Architecture
-## 🏗️ Architecture
 ```text
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Parser Agent  │───▶│   Fixer Agent   │───▶│ Reviewer Agent  │
+│   Parser Agent  │───▶|   Fixer Agent   │───▶│Reviewer Agent  │
 │                 │    │                 │    │                 │
 │ • Error Analysis│    │ • Solution Gen  │    │ • Quality Check │
 │ • Issue Extract │    │ • Code Fixing   │    │ • Validation    │
